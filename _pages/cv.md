@@ -9,56 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
+[Download my CV (PDF)]({{ base_path }}/files/CV_Zirong_Gan.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D., School of Computing**, University of Connecticut, Storrs, CT, USA, 2025 – Present
+* **B.E., School of Electronics and Information Technology**, Sun Yat-sen University, Guangzhou, China, 2014 – 2018
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Assistant**, University of Connecticut, Storrs, CT, USA, 2025 – Present
+  * Developed P4Bench to evaluate the performance of LLMs in P4 programming.
+  * Exploring the integration of LLMs with networking, focusing on programmable data planes and the P4 language.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Backend Engineer**, Tencent Technology (Shenzhen) Co., Ltd., Shenzhen, China, 2022 – 2025
+  * Built blockchain systems, including consensus algorithms and smart contracts.
+  * Developed Web3.0 applications, including gaming and a blockchain explorer.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Blockchain Engineer**, Jinninghui Technology (Blockchain Startup), Guangzhou, China, 2018 – 2022
+  * Built the blockchain system from the ground up.
+  * Developed a developer platform for building applications on the blockchain.
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Skills
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Programming Languages:** Golang, Python, C/C++, Java, Rust, Solidity, SQL, Bash
+* **Database Systems:** MongoDB, PostgreSQL, MySQL, Redis, SQLite
+* **DevOps & Version Control:** Docker, Git, Jenkins
